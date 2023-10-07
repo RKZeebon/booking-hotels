@@ -189,3 +189,115 @@ a {
     font-size: 32px;
     font-weight: 700;
 }
+
+.offers {
+    padding: 80px 0;
+}
+
+.offers .offers-heading h3 {
+    color: #65AEF2;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.offers .offers-heading h1 {
+    font-size: 64px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.offers .offers-heading h1 button {
+    color: #65AEF2;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+}
+
+.offers .offers-heading p {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    width: 742px;
+}
+
+.offers .offer-cards {
+    margin-top: 80px;
+    display: flex;
+    gap: 60px;
+
+}
+
+.offers .offer-cards .card {
+    border-radius: 42px;
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(0, 52, 101, 0.25);
+    padding: 20px;
+    height: 547px;
+    position: relative;
+}
+
+.offer-cards .card img {
+    border-radius: 24px;
+    margin-bottom: 28px;
+}
+
+.offer-cards .card-details>span {
+    color: #5E5E5E;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.offer-cards .card-details h4 {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-cards .card-details h4 span {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.offer-cards .card-details h4 span::before {
+    content: url(./assets/person-vector.png);
+    position: absolute;
+    left: -20px;
+}
+
+.offer-cards .card-details p {
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.offer-cards .card-details h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    color: #1E1E1E;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.offer-cards .card-details h2 span {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+
+}
