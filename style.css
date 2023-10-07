@@ -84,3 +84,108 @@ a {
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+/* Book a room section will do later */
+
+/* .book-a-room {
+    width: 1194px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #E9F3F6;
+    border-radius: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+}
+
+.book-a-room h3 {
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+.book-a-room p {
+    color: #5E5E5E;
+    font-weight: 500;
+}
+
+.book-a-room .inputs {
+    margin-top: 57px;
+    display: flex;
+    align-items: end;
+    gap: 67px;
+}
+
+.inputs .date h6,
+.inputs .persons h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    width: 265px;
+}
+
+.inputs .date input {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 49px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.inputs .persons div {
+    background-color: #FFF;
+    border-radius: 12px;
+}
+
+.inputs .persons select {
+    padding: 20px 49px;
+    border: none;
+} */
+
+
+/* Book a room section will do later */
+
+
+
+
+
+.facilities-section {
+    background-color: #F3F3F3;
+    padding: 50px 0;
+}
+
+.facilities {
+    display: flex;
+    gap: 40px;
+}
+
+.facilities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+
+.facilities div:first-child {
+    grid-row: span 2;
+}
+
+.facilities div {
+    position: relative;
+    border-radius: 42px;
+}
+
+.facilities div h3 {
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
