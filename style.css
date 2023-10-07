@@ -10,3 +10,77 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background-image: url(./assets/hero-overlay.png), url(./assets/hero-bg.png);
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+
+.header-section nav {
+    width: 1096px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 19px 49px;
+    border-radius: 18px;
+}
+
+.header-section nav ul {
+    display: flex;
+    align-items: center;
+    gap: 84px;
+
+}
+
+.header-section ul a {
+    color: #262626;
+    transition: all .2s ease;
+}
+
+.header-section ul img {
+    width: 78px;
+    height: 42px;
+}
+
+.header-section ul li:first-child a {
+    color: #65AEF2;
+}
+
+.header-section ul a:hover {
+    color: #65AEF2;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 288px;
+    margin-left: 70px;
+    padding-bottom: 60px;
+}
+
+.hero .slide-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
